@@ -31,3 +31,17 @@ a:hover {
   font-weight: bold;
   font-size: 18px;
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Големина на текстот за помали екрани */
+    }
+
+    p {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 1em; /* Помала големина на текстот за навигацијата */
+    }
+}
